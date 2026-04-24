@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 800vw;
+}
+section {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: #333;
+}
+
+.scene1 {
+  background-image: url("images/subway-wall.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.scene2 {
+  background-image: url("images/subway-wall.jpg");
+  background-size: 200%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+
+.poem-box {
+  background-color: #333;
+  width: 25%;
+  color: #fff;
+  padding: 40px;
+  position: absolute;
+  top: 5%;
+  left: 40%;
+}
+
+.poem-line2,
+.poem-line3,
+.poem-line4,
+.poem-line5,
+.poem-line6 {
+  top: -50vh;
+}
